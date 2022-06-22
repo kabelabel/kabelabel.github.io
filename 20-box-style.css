@@ -1,0 +1,30 @@
+.top, .bottom {
+    border: 1px solid blue;
+    height: 100px;
+    width: 700px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom {
+    background-color: orangered;
+    margin-top: 20px;
+}
+
+.insidetop, .insidebottom {
+    width: 50px;
+    height: 50px;
+}
+
+.insidetop {
+    background-color: blue;
+}
+
+.insidebottom {
+    background-color: purple;
+}
