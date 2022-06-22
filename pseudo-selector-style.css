@@ -1,0 +1,10 @@
+p {
+    margin: 0;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+p:hover {
+    background-color: orangered;
+}
