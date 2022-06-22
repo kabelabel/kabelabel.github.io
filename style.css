@@ -1,0 +1,108 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1278px;
+}
+
+.portrait {
+  width: 1278px
+}
+
+header, main {
+  color: #222;
+}
+
+header {
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#H {
+  position: absolute;
+  bottom: 42px;
+  left: 300px;
+}
+
+#H_1stline {
+  font-size: 36px;
+  position: relative;
+  top: 20px;
+}
+
+#H_2ndline {
+  font-size: 70px;
+}
+
+.quote {
+  background-color: #444444;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 46px;
+  
+  margin: 50px 250px 50px 250px;
+  padding: 50px;
+  
+  position: relative;
+}
+
+.quote::before {
+  content:'"';
+  font-family: 'Beth Ellen', cursive;
+  font-size: 110px;
+  position: absolute;
+  left: 0;
+  top: -80px;
+}
+
+main .paragraph {
+  font-family: Josefin Sans, sans-serif;
+  margin-left: 300px;
+  margin-right: 300px;
+  line-height: 1.6;
+  font-size: 13.37px;
+}
+
+main #introduction {
+  font-size: 17.5px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0px 0px 50px 0px;
+  font-size: 23px;
+}
+
+h2 {
+  margin: 0px 0px 20px 0px;
+  font-size: 23px;
+}
+
+h3 {
+  font-style: italic;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  font-size: 14px;
+}
+
+main p {
+  margin: 0px 0px 30px 0px;
+}
+
+.nomargin h2 {
+  margin-bottom: 0;
+}
+
+.nomargin h3{
+  position: relative;
+  bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.bord {
+  background-color: #222;
+  border: solid #222 2px;
+  margin: 50px 270px;
+}
